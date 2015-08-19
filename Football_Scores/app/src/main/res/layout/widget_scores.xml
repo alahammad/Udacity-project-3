@@ -22,6 +22,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:contentDescription="@string/home_crest_desc"
             tools:src="@drawable/arsenal" />
 
         <TextView
@@ -30,6 +31,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:gravity="center"
+            android:contentDescription="@string/home_desc"
             android:textSize="@dimen/TeamNames"
             tools:text="Arsenal FC" />
 
@@ -41,6 +43,8 @@
         android:layout_height="fill_parent"
         android:layout_weight="1"
         android:gravity="center"
+        android:contentDescription="@string/score"
+
         android:textSize="@dimen/Score"
         tools:text="2 - 4" />
 
@@ -55,6 +59,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:contentDescription="@string/away_crest_desc"
             tools:src="@drawable/chelsea" />
 
         <TextView
@@ -63,6 +68,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:gravity="center"
+            android:contentDescription="@string/away_desc"
             android:textSize="@dimen/TeamNames"
             tools:text="Chelsea" />
 

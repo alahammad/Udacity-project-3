@@ -41,5 +41,8 @@
     <string name="score">Score</string>
     <string name="date">Date</string>
 
+    <string name="about_desc">About</string>
+    <string name="share_desc">Share</string>
+
 
 </resources>
